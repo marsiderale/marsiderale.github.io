@@ -1,0 +1,109 @@
+body{
+    font-family:Montserrat;
+}
+
+#header{
+    background-image:linear-gradient(to bottom, transparent 80%, white), url("images/header-bg.png");
+    background-size:cover;
+    color:white;
+}
+h4{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 30px */
+    text-transform: uppercase;
+}
+h1{
+    font-family:"against";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+#tag-content{
+    background: rgba(107, 107, 107, 0.1);
+    backdrop-filter: blur(7.5px);
+    padding:10px;
+    padding-inline:30px;
+    border-radius:100px;
+    width:fit-content;
+
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+@media(max-width:992px){
+    h1{
+        font-size:50px;
+    }
+    h4{
+        font-size:20px;
+    }
+    #tag-content{
+        font-size:15px;
+    }
+}
+#value{
+    width:18px;
+    padding-bottom:4px;
+}
+
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#att{
+    width:400px;
+}
+#scrolling-cards{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#button {
+    background-color:rgb(148, 61, 255);
+    color:white;
+    border:none;
+    font-size:1.3em;
+    font-weight:600;
+}
+
+#button:hover {
+    background-color:rgb(95, 34, 170);
+    color:white;
+    border:none;
+}
+
+#button:active {
+    background-color:white;
+    color:rgb(148, 61, 255);
+    border:none;
+}
+
+#info {
+    color: white;
+    background: rgba(107, 107, 107, 0.1);
+    backdrop-filter: blur(7.5px);
+    border-radius:100px;
+    border:none;
+    font-size:1.3em;
+    font-weight:600;
+}
+
+#content{
+    color:black;
+    
+}
